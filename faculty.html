@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Faculty</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="img/wpf-favicon.png"/>
+
+    <!-- CSS
+    ================================================== -->
+    <!-- Bootstrap css file-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome css file-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Superslide css file-->
+    <link rel="stylesheet" href="css/superslides.css">
+    <!-- Slick slider css file -->
+    <link href="css/slick.css" rel="stylesheet">
+    <!-- Circle counter cdn css file -->
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>
+    <!-- smooth animate css file -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- preloader -->
+    <link rel="stylesheet" href="css/queryLoader.css" type="text/css" />
+    <!-- gallery slider css -->
+    <link type="text/css" media="all" rel="stylesheet" href="css/jquery.tosrus.all.css" />
+    <!-- Default Theme css file -->
+    <link id="switcher" href="css/themes/default-theme.css" rel="stylesheet">
+    <!-- Main structure css file -->
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custome.css">
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"></a>
+    <!-- END SCROLL TOP BUTTON -->
+
+    <!-- daiict -->
+    <div class="container-fluid" style="background:#fff;">
+		<div class="row">
+			<div class="col-md-6 col-md-sm-12">
+				<a href="daiict.ac.in"><img src="http://www.daiict.ac.in/daiict/images/DAIICT-Logo.gif" class="img img-responsive" > </a>
+			</div>
+			<div class="col-md-offset-3 col-md-3 ">
+				<select id="urlSelect" onchange="return onchangeURL();" class="form-control partner-link" >
+
+
+
+					<option value="null">-----------  Group Websites  ------------</option>
+
+					<option></option>
+
+					<option value="http://www.relianceadagroup.com">Reliance Group</option>
+
+
+
+					<option value="null">-------------------------------------</option>
+
+
+
+					<option value="http://www.rcom.co.in">Reliance Communications</option>
+
+					<option value="http://www.reliancedigitaltv.com">Reliance Digital TV</option>
+
+					<option value="http://www.globalcloudexchange.com/">Global Cloud Xchange</option>
+
+					<option value="https://www.relianceglobalcall.com">Reliance Globalcall</option>
+
+
+
+
+
+					<option value="null">-------------------------------------</option>
+
+
+
+					<option value="http://www.reliancecapital.co.in">Reliance Capital</option>
+
+					<option value="http://www.rarcl.com">RARCL</option>
+
+					<option value="http://www.rsec.co.in">Reliance Securities</option>
+
+					<option value="http://reliancepms.com/">Reliance PMS</option>
+
+					<option value="http://www.reliancegeneral.co.in">Reliance General Insurance</option>
+
+					<option value="http://www.reliancelife.com">Reliance Life Insurance</option>
+
+					<option value="http://www.reliancecommercialfinance.com">Reliance Commercial Finance</option>
+
+					<option value="http://www.reliancemutual.com">Reliance Mutual Fund</option>
+
+
+
+					<option value="null">-------------------------------------</option>
+
+
+
+					<option value="http://www.rinfra.com">Reliance Infrastructure</option>
+
+					<option value="http://www.relianceenergy.in">Reliance Energy</option>
+
+					<option value="http://www.reliancepower.co.in">Reliance Power</option>
+
+					<option value="http://www.relianceroads.com">Reliance Roads</option>
+
+					<option value="http://www.reliancecement.com">Reliance Cements</option>
+
+					<option value="http://www.relianceenergytrading.com">Reliance Energy Trading</option>
+
+					<option value="http://www.reliancemumbaimetro.com">Mumbai Metro One</option>
+
+					<option value="http://nandedairport.co.in">Nanded Airport</option>
+
+					<option value="http://cgrfrinfra.org.in">CGRF</option>
+
+					<option value="http://www.bsesdelhi.com">BSES Delhi</option>
+
+					<option value="null">-------------------------------------</option>
+
+					<option value="http://www.relianceentertainment.net">Reliance Entertainment</option>
+
+					<option value="http://www.rbe.co.in">Reliance Big Entertainment</option>
+
+					<option value="http://www.reliancebroadcast.com">Reliance Broadcast Network</option>
+
+					<option value="http://www.bigproductions.co.in">BIG Productions</option>
+
+					<option value="http://reliancehvg.co.in/store/home.php">Reliance Home Video &amp; Games</option>
+
+					<option value="http://www.biganimation.com">Reliance Animation</option>
+
+					<option value="http://www.ndstudioindia.com">Reliance ND Studio</option>
+
+					<option value="http://www.bigsynergy.tv">Reliance Synergy</option>
+
+					<option value="http://www.big927fm.com">BIG 92.7 FM</option>
+
+					<option value="http://www.bigadda.com">BIG ADDA</option>
+
+					<option value="http://www.bigflix.com">BIG Flix</option>
+
+					<option value="http://www.talenthouse.com">Talent House</option>
+
+					<option value="http://www.reliancegames.com">Reliance Games</option>
+
+					<option value="http://www.zapak.com">Zapak</option>
+
+					<option value="null">-------------------------------------</option>
+
+					<option value="http://www.kokilabenhospital.com">Kokilaben Hospital</option>
+
+					<option value="http://www.kdanursingcollege.com">KDA Nursing College</option>
+
+					<option value="http://www.harmonyindia.org">Harmony</option>
+
+					<option value="http://www.daiict.ac.in">DAIICT</option>
+
+				</select>
+			</div>
+		</div>
+	</div>
+
+    <!--=========== BEGIN HEADER SECTION ================-->
+    <header id="header">
+
+
+      <!-- BEGIN MENU -->
+      <div class="menu_area">
+        <nav class="navbar navbar-default " role="navigation">  <div class="container">
+            <div class="navbar-header">
+              <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- LOGO -->
+              <!-- TEXT BASED LOGO -->
+
+              <!-- IMG BASED LOGO  -->
+               <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>  -->
+
+           </div>
+           <div id="navbar" class="navbar-collapse collapse">
+               <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+                   <li class=""><a href="index.html">Home</a></li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Institute<span class="caret"></span></a>
+                       <ul class="dropdown-menu" role="menu">
+                           <li class=""><a href="codes.html">Founder</a></li>
+                           <li class=""><a href="icons.html">President</a></li>
+                           <li class=""><a href="icons.html">Director</a></li>
+                           <li class=""><a href="icons.html">Vision Mission Policy</a></li>
+                           <li class=""><a href="icons.html">Milestones</a></li>
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Acadmics<span class="caret"></span></a>
+                       <ul class="dropdown-menu">
+                           <li class=""><a href="codes.html">Undergraduat Programes</a></li>
+                           <li class=""><a href="codes.html">Post Programes</a></li>
+                           <li class=""><a href="codes.html">Doctoral Programes</a></li>
+                           <li class=""><a href="codes.html">International Student Cell</a></li>
+                           <li class=""><a href="codes.html">Board of Studies</a></li>
+
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Research<span class="caret"></span></a>
+                       <ul class="dropdown-menu">
+                           <li class=""><a href="codes.html">Research at DA-IICT</a></li>
+                           <li class=""><a href="codes.html">PResearch Groups</a></li>
+                           <li class=""><a href="codes.html">Dean (R&amp;D)</a></li>
+                           <li class=""><a href="codes.html">Recent Publications</a></li>
+                           <li class=""><a href="codes.html">Research Projects</a></li>
+                           <li class=""><a href="codes.html">Policies</a></li>
+
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">People<span class="caret"></span></a>
+                       <ul class="dropdown-menu">
+                           <li class=""><a href="faculty.html">Faculty</a></li>
+                           <li class=""><a href="codes.html">Teaching Assistants</a></li>
+                           <li class=""><a href="codes.html">Staff</a></li>
+                           <li class=""><a href="codes.html">PhD Students (Lecturers)</a></li>
+                           <li class=""><a href="codes.html"></a></li>
+                           <li class=""><a href="codes.html">Parents</a></li>
+
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Admission<span class="caret"></span></a>
+                       <ul class="dropdown-menu">
+                           <li class=""><a href="codes.html">Undergraduate Program</a></li>
+                           <li class=""><a href="codes.html">Postgraduate Programs</a></li>
+                           <li class=""><a href="codes.html">PhD</a></li>
+                           <li class=""><a href="codes.html">Financial Aid</a></li>
+
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Student Life<span class="caret"></span></a>
+                       <ul class="dropdown-menu">
+                           <li class=""><a href="codes.html">Student Government</a></li>
+                           <li class=""><a href="codes.html">Activities</a></li>
+                           <li class=""><a href="codes.html">Student Clubs</a></li>
+                           <li class=""><a href="codes.html">IEEE Student Branch</a></li>
+                           <li class=""><a href="codes.html">Gender Cell</a></li>
+                           <li class=""><a href="codes.html">Grievance Redressal Cell</a></li>
+                           <li class=""><a href="codes.html">Dean(Students)</a></li>
+                           <li class=""><a href="codes.html">Alumni Testimonials_Video</a></li>
+                           <li class=""><a href="codes.html">Alumni Testimonials</a></li>
+
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Career Service<span class="caret"></span></a>
+                       <ul class="dropdown-menu">
+                           <li class=""><a href="codes.html">Placements</a></li>
+                           <li class=""><a href="codes.html">Entrepreneurship Cell</a></li>
+                       </ul>
+                   </li>
+
+                   <li class="dropdown"><a href="#">CEP</a>
+
+
+                   </li>
+
+               </ul>
+           </div><!--/.nav-collapse -->
+       </div>
+   </nav>
+</div>
+      <!-- END MENU -->
+    </header>
+    <!--=========== END HEADER SECTION ================-->
+<div class="container" >
+    <div class="margin-top" style="margin-top:12%;">
+        <h3>Faculty</h3>
+        <hr>
+    </div>
+    <div class="margin-top faculty-list margin-bottom">
+        <div class="wrapper row margin-top margin-bottom">
+            <div class="icon col-md-offset-1 col-md-3 col-md-offset-1">
+                <img src="img/fac1.jpg" alt="" height="200px">
+            </div>
+            <div class="content col-md-7">
+                <h3>K.S. Dasgupta (Director) </h3>
+                <p>PhD (Engineering) </p>
+                <p>Indian Institute of Technology, Bombay</p>
+                <p><strong>Areas of interest:</strong> Digital Signal and Image Processing, Digital Communication, Computer Networking and SatelliteCommunication.</p>
+                <h4>ksd@daiict.ac.in</h4>
+                <p><strong>Office :</strong> (+91) 079-30510572</p>
+            </div>
+        </div>
+        <div class="wrapper row margin-top margin-bottom">
+            <div class="icon col-md-offset-1 col-md-3 col-md-offset-1">
+                <img src="img/fac2.jpg" alt="" height="200px">
+            </div>
+            <div class="content col-md-7">
+                <h3>Banerjee, Asim </h3>
+                <p>PhD (Electrical Engineering)</p>
+                <p>IIT Bombay</p>
+                <p><strong>Areas of interest:</strong> Pattern Recognition, Medical Imaging, Image Processing, Digital Signal Processing, Speech Coding, Software Engineering, Software Quality Assurance and Project Management</p>
+                <h4>asim_banerjee@daiict.ac.in</h4>
+                <p><strong>Office :</strong> (+91) 079-30510554</p>
+            </div>
+        </div>
+        <div class="wrapper row margin-top margin-bottom">
+            <div class="icon col-md-offset-1 col-md-3 col-md-offset-1">
+                <img src="img/fac3.jpg" alt="" height="200px">
+            </div>
+            <div class="content col-md-7">
+                <h3>Bhise, Minal </h3>
+                <p>PhD (Computer Science) </p>
+                <p>BITS Pilani</p>
+                <p><strong>Areas of interest:</strong>  Semantic Web, Distributed Databases, Software System Analysis and Design</p>
+                <h4>minal_bhise@daiict.ac.in</h4>
+                <p><strong>Office :</strong> (+91) 079-30510548</p>
+            </div>
+        </div>
+        <div class="wrapper row margin-top margin-bottom">
+            <div class="icon col-md-offset-1 col-md-3 col-md-offset-1">
+                <img src="img/fac4.jpg" alt="" height="200px">
+            </div>
+            <div class="content col-md-7">
+                <h3>Bhatt, Amit</h3>
+                <p>PhD (Electrical Engineering)</p>
+                <p>North Carolina State University</p>
+                <p><strong>Areas of interest:</strong> Multi core Computer architecture and parallel programming. Low Power Methodology in Digital design</p>
+                <h4>amit_bhatt@daiict.ac.in</h4>
+                <p><strong>Office :</strong> (+91) 079-30510643</p>
+            </div>
+        </div>
+        <div class="wrapper row margin-top margin-bottom">
+            <div class="icon col-md-offset-1 col-md-3 col-md-offset-1">
+                <img src="img/fac7.jpg" alt="" height="200px">
+            </div>
+            <div class="content col-md-7">
+                <h3>Tiwari, Saurabh </h3>
+                <p>PhD (Software Engineering)</p>
+                <p>IIITDM, Jabalpur </p>
+                <p><strong>Areas of interest:</strong>Requirement Engineering, Empirical Software Engineering, Evidence-based Software Engineering, Safety Analysis, Model-based Testing</p>
+                <h4>sourabh_t@daiict.ac.in</h4>
+                <p><strong>Office :</strong>(+91) 079-30510618</p>
+            </div>
+        </div>
+        <div class="wrapper row margin-top margin-bottom">
+            <div class="icon col-md-offset-1 col-md-3 col-md-offset-1">
+                <img src="img/fac5.jpg" alt="" height="200px">
+            </div>
+            <div class="content col-md-7">
+                <h3>Bhateja, Puneet</h3>
+                <p>PhD (Computer Science)</p>
+                <p>Chennai Mathematical Institute,India</p>
+                <p><strong>Areas of interest:</strong>Formal Methods used for Testing and Verification</p>
+                <h4>punit_bhateja@daiict.ac.in</h4>
+                <p><strong>Office :</strong> (+91) 079-30510647</p>
+            </div>
+        </div>
+        <div class="wrapper row margin-top margin-bottom">
+            <div class="icon col-md-offset-1 col-md-3 col-md-offset-1">
+                <img src="img/fac6.jpg" alt="" height="200px">
+            </div>
+            <div class="content col-md-7">
+                <h3>Sasidhar P S Kalyan</h3>
+                <p>PhD (Computer Science and Engineering)</p>
+                <p>University of North Texas-Denton, Texas, USA</p>
+                <p><strong>Areas of interest:</strong> Mobile and Pervasive Computing</p>
+                <h4>kalyan_sasidhar@daiict.ac.in</h4>
+                <p><strong>Office :</strong>079-30510560</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+    <!--=========== BEGIN FOOTER SECTION ================-->
+    <footer id="footer">
+      <!-- Start footer top area -->
+      <div class="footer_top">
+        <div class="container">
+          <div class="row">
+            <div class="col-ld-3  col-md-3 col-sm-3">
+                <div class="single_footer_widget">
+                  <h3>Institute</h3>
+                  <ul class="footer_widget_nav">
+                      <li><a href="#">Founder</a></li>
+                          <li><a href="#">President</a></li>
+                          <li><a href="#">Director</a></li>
+                          <li><a href="#">About DAIICT</a></li>
+                          <li><a href="#">Anual Report</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-ld-3  col-md-3 col-sm-3">
+              <div class="single_footer_widget">
+                <h3>Acadmics</h3>
+                <ul class="footer_widget_nav">
+                        <li><a href="#">Undergraduate Programmes</a></li>
+                        <li><a href="#">Post Programmes</a></li>
+                        <li><a href="#">Doctoral Programmes</a></li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-ld-3  col-md-3 col-sm-3">
+              <div class="single_footer_widget">
+                <h3>Student Life</h3>
+                <ul class="footer_widget_nav">
+                    <li><a href="#">Student Government</a></li>
+                    <li><a href="#">Activities</a></li>
+                    <li><a href="#">Student Club</a></li>
+                    <li><a href="#">IEEE Student Branch</a></li>
+                    <li><a href="#">Gender Cell</a></li>
+                    <li><a href="#">Alumni Testimonial</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-ld-3  col-md-3 col-sm-3">
+              <div class="single_footer_widget">
+                <h3>People</h3>
+                <ul class="footer_widget_nav">
+                        <li><a href="#">Faculty</a></li>
+                        <li><a href="#">Technical Assistant</a></li>
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="#">Phd Student (Lacturer)</a></li>
+                        <li><a href="#">Alumni</a></li>
+                        <li><a href="#">Parent</a></li>
+                    </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End footer top area -->
+
+      <!-- Start footer bottom area -->
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="footer_bootomLeft">
+                <p> Copyright &copy; All Rights Reserved</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="footer_bootomRight">
+                <p>
+                    DAIICT, Gandhinagar &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#" style="font-size:25px;margin-left:2px"><i class="fa fa-facebook"></i></a>
+                    <a href="#" style="font-size:25px;margin-left:2px"><i class="fa fa-instagram"></i></a>
+                    <a href="#" style="font-size:25px;margin-left:2px"><i class="fa fa-twitter"></i></a>
+                    <a href="#" style="font-size:25px;margin-left:2px"><i class="fa fa-linkedin"></i></a>
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End footer bottom area -->
+    </footer>
+    <!--=========== END FOOTER SECTION ================-->
+
+
+
+    <!-- Javascript Files
+    ================================================== -->
+
+    <!-- initialize jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Preloader js file -->
+    <script src="js/queryloader2.min.js" type="text/javascript"></script>
+    <!-- For smooth animatin  -->
+    <script src="js/wow.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- slick slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- superslides slider -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.animate-enhanced.min.js"></script>
+    <script src="js/jquery.superslides.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- for circle counter -->
+    <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
+    <!-- Gallery slider -->
+    <script type="text/javascript" language="javascript" src="js/jquery.tosrus.min.all.js"></script>
+
+    <!-- Custom js-->
+    <script src="js/custom.js"></script>
+    <!--===============================================
+    Template Design By WpFreeware Team.
+    Author URI : http://www.wpfreeware.com/
+    ====================================================-->
+
+
+  </body>
+</html>
